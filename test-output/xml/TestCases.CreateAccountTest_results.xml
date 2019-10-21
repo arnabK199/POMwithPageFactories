@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Create Account Test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="1"
+           time="75.140">
+  <properties />
+  
+            <testcase name="createAccountTest" time="0.0" classname="TestCases.CreateAccountTest">
+          <skipped />
+    </testcase>
+  
+            <testcase name="createAccountTest" time="27.078" classname="TestCases.CreateAccountTest" />
+                <testcase name="createAccountTest" time="48.062" classname="TestCases.CreateAccountTest" />
+      
+</testsuite>

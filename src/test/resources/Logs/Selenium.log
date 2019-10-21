@@ -1,0 +1,72 @@
+12:01:34,556 DEBUG devpinoyLogger:73 - Chrome Launched !!!
+12:01:58,735 DEBUG devpinoyLogger:83 - Navigated to : https://www.expedia.co.in
+12:02:01,984  INFO devpinoyLogger:102 - clicked on Element : [[ChromeDriver: chrome on XP (3b4065417b35ae469e708d561167b000)] -> xpath: //button[@id='tab-flight-tab-hp']]
+12:02:03,972  INFO devpinoyLogger:110 - Typed on Element : [[ChromeDriver: chrome on XP (3b4065417b35ae469e708d561167b000)] -> xpath: //input[@id='flight-origin-hp-flight']] with value : Kolkata, India (CCU-Netaji Subhash Chandra Bose Intl.)
+12:02:05,537  INFO devpinoyLogger:110 - Typed on Element : [[ChromeDriver: chrome on XP (3b4065417b35ae469e708d561167b000)] -> xpath: //input[@id='flight-destination-hp-flight']] with value : Delhi, India (DEL-Indira Gandhi Intl.)
+12:02:06,139  INFO devpinoyLogger:102 - clicked on Element : [[[[ChromeDriver: chrome on XP (3b4065417b35ae469e708d561167b000)] -> xpath: (//div[@class='cols-nested'])[1]]] -> xpath: //input[@id='flight-departing-hp-flight']]
+12:02:16,609  INFO devpinoyLogger:102 - clicked on Element : Proxy element for: DefaultElementLocator 'By.xpath: //button[@data-month='7'][@data-day='24']'
+12:02:47,080  INFO devpinoyLogger:102 - clicked on Element : [[ChromeDriver: chrome on XP (3b4065417b35ae469e708d561167b000)] -> css selector: .text.datepicker-trigger-input.gcw-end-date.gcw-update-date-range.gcw-storeable.gcw-required.gcw-valid-date]
+12:02:47,381  INFO devpinoyLogger:102 - clicked on Element : [[ChromeDriver: chrome on XP (3b4065417b35ae469e708d561167b000)] -> xpath: //button[@data-month='8'][@data-day='13']]
+12:03:29,771  INFO devpinoyLogger:102 - clicked on Element : Proxy element for: DefaultElementLocator 'By.cssSelector: .btn-primary.btn-action.gcw-submit'
+12:03:29,829 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+12:03:29,829 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+12:03:29,829 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+12:03:29,829 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+12:03:29,829 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/ArnabKundu/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+12:03:31,368 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+12:03:31,382 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+12:03:31,382 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+12:03:31,408 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+12:03:31,409 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/ArnabKundu/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+12:03:31,531 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+12:03:31,531 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+12:03:31,531 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+12:03:31,531 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+12:03:31,531 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/ArnabKundu/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+12:03:34,159 DEBUG devpinoyLogger:73 - Chrome Launched !!!
+12:03:52,992 DEBUG devpinoyLogger:83 - Navigated to : https://www.expedia.co.in
+12:03:56,679  INFO devpinoyLogger:102 - clicked on Element : [[ChromeDriver: chrome on XP (d0ee6f9cf4672f1faf0e5b26457427d2)] -> xpath: //button[@id='header-account-menu']]
+12:03:56,901  INFO devpinoyLogger:102 - clicked on Element : [[ChromeDriver: chrome on XP (d0ee6f9cf4672f1faf0e5b26457427d2)] -> xpath: //a[@id='account-register']]
+12:04:01,385  INFO devpinoyLogger:110 - Typed on Element : [[ChromeDriver: chrome on XP (d0ee6f9cf4672f1faf0e5b26457427d2)] -> xpath: //input[@id='gss-signup-first-name']] with value : Arnab
+12:04:01,781  INFO devpinoyLogger:110 - Typed on Element : [[ChromeDriver: chrome on XP (d0ee6f9cf4672f1faf0e5b26457427d2)] -> xpath: //input[@id='gss-signup-last-name']] with value : Kundu
+12:04:02,295  INFO devpinoyLogger:110 - Typed on Element : [[ChromeDriver: chrome on XP (d0ee6f9cf4672f1faf0e5b26457427d2)] -> xpath: //input[@id='gss-signup-email']] with value : abcd@gmail.com
+12:04:02,677  INFO devpinoyLogger:110 - Typed on Element : [[ChromeDriver: chrome on XP (d0ee6f9cf4672f1faf0e5b26457427d2)] -> xpath: //input[@id='gss-signup-password']] with value : abcd
+12:04:02,947  INFO devpinoyLogger:102 - clicked on Element : [[ChromeDriver: chrome on XP (d0ee6f9cf4672f1faf0e5b26457427d2)] -> xpath: //button[@id='gss-signup-submit']]
+12:04:07,954 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+12:04:07,954 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+12:04:07,959 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+12:04:07,959 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+12:04:07,959 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/ArnabKundu/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+12:04:09,019 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+12:04:09,019 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+12:04:09,019 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+12:04:09,023 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+12:04:09,024 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/ArnabKundu/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+12:04:11,873 DEBUG devpinoyLogger:73 - Chrome Launched !!!
+12:04:23,261 DEBUG devpinoyLogger:83 - Navigated to : https://www.expedia.co.in
+12:04:36,916 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+12:04:36,916 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+12:04:36,916 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+12:04:36,916 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+12:04:36,916 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/ArnabKundu/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+12:04:40,377 DEBUG devpinoyLogger:73 - Chrome Launched !!!
+12:05:52,681 DEBUG devpinoyLogger:83 - Navigated to : https://www.expedia.co.in
+12:05:55,478  INFO devpinoyLogger:102 - clicked on Element : [[ChromeDriver: chrome on XP (62e59976fe2d6424bce002586cb8af1b)] -> xpath: //button[@id='tab-hotel-tab-hp']]
+12:05:56,380  INFO devpinoyLogger:110 - Typed on Element : [[ChromeDriver: chrome on XP (62e59976fe2d6424bce002586cb8af1b)] -> xpath: //input[@id='hotel-destination-hp-hotel']] with value : Kuala Lumpur, Malaysia
+12:05:56,748  INFO devpinoyLogger:102 - clicked on Element : [[ChromeDriver: chrome on XP (62e59976fe2d6424bce002586cb8af1b)] -> xpath: //input[@id='hotel-checkin-hp-hotel']]
+12:05:56,982  INFO devpinoyLogger:102 - clicked on Element : [[ChromeDriver: chrome on XP (62e59976fe2d6424bce002586cb8af1b)] -> xpath: //button[@data-month='7'][@data-day='24']]
+12:05:57,425  INFO devpinoyLogger:102 - clicked on Element : [[ChromeDriver: chrome on XP (62e59976fe2d6424bce002586cb8af1b)] -> xpath: //input[@id='hotel-checkout-hp-hotel']]
+12:05:57,753  INFO devpinoyLogger:102 - clicked on Element : [[ChromeDriver: chrome on XP (62e59976fe2d6424bce002586cb8af1b)] -> xpath: //button[@data-month='8'][@data-day='13']]
+12:05:58,127  INFO devpinoyLogger:102 - clicked on Element : [[ChromeDriver: chrome on XP (62e59976fe2d6424bce002586cb8af1b)] -> xpath: (//button[@data-gcw-component="gcw-traveler-amount-select"])[3]]
+12:05:58,397  INFO devpinoyLogger:102 - clicked on Element : [[ChromeDriver: chrome on XP (62e59976fe2d6424bce002586cb8af1b)] -> xpath: //div[@class='traveler-selector-room-data']/div[2]/div[4]]
+12:05:58,582  INFO devpinoyLogger:102 - clicked on Element : [[ChromeDriver: chrome on XP (62e59976fe2d6424bce002586cb8af1b)] -> xpath: //div[@class='traveler-selector-room-data']/div[2]/div[4]]
+12:05:58,861  INFO devpinoyLogger:102 - clicked on Element : [[ChromeDriver: chrome on XP (62e59976fe2d6424bce002586cb8af1b)] -> xpath: //div[@class='traveler-selector-room-data']/div[2]/div[4]]
+12:05:58,991  INFO devpinoyLogger:102 - clicked on Element : [[ChromeDriver: chrome on XP (62e59976fe2d6424bce002586cb8af1b)] -> xpath: //div[@class='traveler-selector-room-data']/div[2]/div[4]]
+12:05:59,296  INFO devpinoyLogger:102 - clicked on Element : [[ChromeDriver: chrome on XP (62e59976fe2d6424bce002586cb8af1b)] -> xpath: //div[@class='traveler-selector-room-data']/div[3]/div/div[4]]
+12:06:19,504  INFO devpinoyLogger:102 - clicked on Element : Proxy element for: DefaultElementLocator 'By.xpath: //li[contains(@class,'open')]//button[contains(@class,'close btn-text')]'
+12:06:20,179  INFO devpinoyLogger:102 - clicked on Element : [[ChromeDriver: chrome on XP (62e59976fe2d6424bce002586cb8af1b)] -> xpath: //form[@id='gcw-hotel-form-hp-hotel']//button[contains(@class,'gcw-submit')]  ]
+12:06:20,181 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+12:06:20,185 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+12:06:20,185 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+12:06:20,185 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+12:06:20,186 DEBUG cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/ArnabKundu/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

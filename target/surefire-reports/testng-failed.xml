@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Expedia Test]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="Listeners.CustomListeners"/>
+  </listeners>
+  <test name="Flight Search Test(failed)">
+    <classes>
+      <class name="TestCases.FlightSearchTest">
+        <methods>
+          <include name="flightSearchTest" invocation-numbers="0"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- TestCases.FlightSearchTest -->
+    </classes>
+  </test> <!-- Flight Search Test(failed) -->
+  <test name="Signin Test(failed)">
+    <classes>
+      <class name="TestCases.SignInTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="signInTest" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- TestCases.SignInTest -->
+    </classes>
+  </test> <!-- Signin Test(failed) -->
+  <test name="Create Account Test(failed)">
+    <classes>
+      <class name="TestCases.CreateAccountTest">
+        <methods>
+          <include name="createAccountTest" invocation-numbers="0 1 2"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- TestCases.CreateAccountTest -->
+    </classes>
+  </test> <!-- Create Account Test(failed) -->
+</suite> <!-- Failed suite [Expedia Test] -->

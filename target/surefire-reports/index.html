@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Expedia_Test">
+              <span class="suite-name border-failed">Expedia Test</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Expedia_Test">
+                    <span>C:\Users\ArnabKundu\eclipse-workspace\POMwithPageFactories\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Expedia_Test">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Expedia_Test">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Expedia_Test">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Expedia_Test">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Expedia_Test">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Expedia_Test">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods, 3 failed,  3 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Expedia_Test" class="hide-methods failed suite-Expedia_Test"> (hide)</a> <!-- hide-methods failed suite-Expedia_Test -->
+                      <a href="#" panel-name="suite-Expedia_Test" class="show-methods failed suite-Expedia_Test"> (show)</a> <!-- show-methods failed suite-Expedia_Test -->
+                    </span>
+                    <div class="method-list-content failed suite-Expedia_Test">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Expedia_Test" title="TestCases.CreateAccountTest" hash-for-method="createAccountTest({lname=Kundu, password=abcd, email=abcd@gmail.com, runmode=Y, fname=Arnab})">createAccountTest({lname=Kundu, password=abcd, email=abcd@gmail.com, runmode=Y, fname=Arnab})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Expedia_Test" title="TestCases.CreateAccountTest" hash-for-method="createAccountTest({lname=Kundu, password=dsds, email=adsd@gmail.com, runmode=Y, fname=Prashant })">createAccountTest({lname=Kundu, password=dsds, email=adsd@gmail.com, runmode=Y, fname=Prashant })</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Expedia_Test" title="TestCases.FlightSearchTest" hash-for-method="flightSearchTest({fromsource=Kolkata, India (CCU-Netaji Subhash Chandra Bose Intl.), todate=9/18/19, todestination=De...)">flightSearchTest({fromsource=Kolkata, India (CCU-Netaji Subhash Chandra Bose Intl.), todate=9/18/19, todestination=De...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Expedia_Test -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Expedia_Test" class="hide-methods skipped suite-Expedia_Test"> (hide)</a> <!-- hide-methods skipped suite-Expedia_Test -->
+                      <a href="#" panel-name="suite-Expedia_Test" class="show-methods skipped suite-Expedia_Test"> (show)</a> <!-- show-methods skipped suite-Expedia_Test -->
+                    </span>
+                    <div class="method-list-content skipped suite-Expedia_Test">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Expedia_Test" title="TestCases.CreateAccountTest" hash-for-method="createAccountTest({lname=Kundu, password=dsg, email=saig@gmail.com, runmode=N, fname=Maya})">createAccountTest({lname=Kundu, password=dsg, email=saig@gmail.com, runmode=N, fname=Maya})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Expedia_Test" title="TestCases.SignInTest" hash-for-method="signInTest({password=abcdef, runmode=Y, username=abcd@gmail.com})">signInTest({password=abcdef, runmode=Y, username=abcd@gmail.com})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Expedia_Test" title="TestCases.SignInTest" hash-for-method="signInTest({password=dsaugidsa, runmode=N, username=xyz@gmail.com})">signInTest({password=dsaugidsa, runmode=N, username=xyz@gmail.com})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Expedia_Test -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Expedia_Test" class="panel Expedia_Test">
+          <div class="suite-Expedia_Test-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestCases.CreateAccountTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAccountTest({lname=Kundu, password=abcd, email=abcd@gmail.com, runmode=Y, fname=Arnab})">
+                  </a> <!-- createAccountTest({lname=Kundu, password=abcd, email=abcd@gmail.com, runmode=Y, fname=Arnab}) -->
+                  <span class="method-name">createAccountTest</span>
+                  <span class="parameters">({lname=Kundu, password=abcd, email=abcd@gmail.com, runmode=Y, fname=Arnab})</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=76.0.3809.100)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;AKUNDU18&apos;, ip: &apos;192.168.1.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\ARNABK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51024}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 08755cf3106f6f62d0a1b250a81a5474
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at BasePage.BaseTest.initConfig(BaseTest.java:82)
+	at TestCases.CreateAccountTest.createAccountTest(CreateAccountTest.java:35)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAccountTest({lname=Kundu, password=dsds, email=adsd@gmail.com, runmode=Y, fname=Prashant })">
+                  </a> <!-- createAccountTest({lname=Kundu, password=dsds, email=adsd@gmail.com, runmode=Y, fname=Prashant }) -->
+                  <span class="method-name">createAccountTest</span>
+                  <span class="parameters">({lname=Kundu, password=dsds, email=adsd@gmail.com, runmode=Y, fname=Prashant })</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created
+from chrome not reachable
+  (Session info: chrome=76.0.3809.100)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;AKUNDU18&apos;, ip: &apos;192.168.1.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00407C93+1473683]
+	Ordinal0 [0x0038ADB1+961969]
+	Ordinal0 [0x0031418C+475532]
+	Ordinal0 [0x0030DB1A+449306]
+	Ordinal0 [0x0030E1B8+451000]
+	Ordinal0 [0x0030F2C5+455365]
+	Ordinal0 [0x0030B4C5+439493]
+	Ordinal0 [0x00314F40+479040]
+	Ordinal0 [0x002C98FE+170238]
+	Ordinal0 [0x002C8D1D+167197]
+	Ordinal0 [0x002C742B+160811]
+	Ordinal0 [0x002B0AE6+68326]
+	Ordinal0 [0x002B1BF0+72688]
+	Ordinal0 [0x002B1B89+72585]
+	Ordinal0 [0x003A4B77+1067895]
+	GetHandleVerifier [0x004A6875+506677]
+	GetHandleVerifier [0x004A6610+506064]
+	GetHandleVerifier [0x004AD1B8+533624]
+	GetHandleVerifier [0x004A704A+508682]
+	Ordinal0 [0x0039C266+1032806]
+	Ordinal0 [0x0039C0DF+1032415]
+	Ordinal0 [0x003A6A8B+1075851]
+	Ordinal0 [0x003A6BF3+1076211]
+	Ordinal0 [0x003A5BA5+1072037]
+	BaseThreadInitThunk [0x77610419+25]
+	RtlGetAppContainerNamedObjectPath [0x77DD662D+237]
+	RtlGetAppContainerNamedObjectPath [0x77DD65FD+189]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at BasePage.BaseTest.initConfig(BaseTest.java:61)
+	at TestCases.CreateAccountTest.createAccountTest(CreateAccountTest.java:35)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Expedia_Test-class-failed -->
+          <div class="suite-Expedia_Test-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestCases.FlightSearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="flightSearchTest({fromsource=Kolkata, India (CCU-Netaji Subhash Chandra Bose Intl.), todate=9/18/19, todestination=De...)">
+                  </a> <!-- flightSearchTest({fromsource=Kolkata, India (CCU-Netaji Subhash Chandra Bose Intl.), todate=9/18/19, todestination=De...) -->
+                  <span class="method-name">flightSearchTest</span>
+                  <span class="parameters">({fromsource=Kolkata, India (CCU-Netaji Subhash Chandra Bose Intl.), todate=9/18/19, todestination=Delhi, India (DEL-Indira Gandhi Intl.), runmode=Y, fromdate=8/25/19})</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=76.0.3809.100)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;AKUNDU18&apos;, ip: &apos;192.168.1.106&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\ARNABK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50203}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0dbb5b785f820809811c35d39a906f07
+*** Element info: {Using=css selector, value=.btn-primary.btn-action.gcw-submit}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy7.toString(Unknown Source)
+	at java.lang.String.valueOf(String.java:2994)
+	at java.lang.StringBuilder.append(StringBuilder.java:131)
+	at BasePage.BaseTest.click(BaseTest.java:101)
+	at Pages.HomePage.searchFlight(HomePage.java:51)
+	at TestCases.FlightSearchTest.flightSearchTest(FlightSearchTest.java:37)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Expedia_Test-class-failed -->
+          <div class="suite-Expedia_Test-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCases.CreateAccountTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAccountTest({lname=Kundu, password=dsg, email=saig@gmail.com, runmode=N, fname=Maya})">
+                  </a> <!-- createAccountTest({lname=Kundu, password=dsg, email=saig@gmail.com, runmode=N, fname=Maya}) -->
+                  <span class="method-name">createAccountTest</span>
+                  <span class="parameters">({lname=Kundu, password=dsg, email=saig@gmail.com, runmode=N, fname=Maya})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test as the Run mode is NO
+	at TestCases.CreateAccountTest.createAccountTest(CreateAccountTest.java:31)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Expedia_Test-class-skipped -->
+          <div class="suite-Expedia_Test-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestCases.SignInTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="signInTest({password=abcdef, runmode=Y, username=abcd@gmail.com})">
+                  </a> <!-- signInTest({password=abcdef, runmode=Y, username=abcd@gmail.com}) -->
+                  <span class="method-name">signInTest</span>
+                  <span class="parameters">({password=abcdef, runmode=Y, username=abcd@gmail.com})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test as the Run mode is NO
+	at TestCases.SignInTest.signInTest(SignInTest.java:25)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signInTest({password=dsaugidsa, runmode=N, username=xyz@gmail.com})">
+                  </a> <!-- signInTest({password=dsaugidsa, runmode=N, username=xyz@gmail.com}) -->
+                  <span class="method-name">signInTest</span>
+                  <span class="parameters">({password=dsaugidsa, runmode=N, username=xyz@gmail.com})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test as the Run mode is NO
+	at TestCases.SignInTest.signInTest(SignInTest.java:25)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Expedia_Test-class-skipped -->
+        </div> <!-- panel Expedia_Test -->
+        <div panel-name="test-xml-Expedia_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\ArnabKundu\eclipse-workspace\POMwithPageFactories\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Expedia Test&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;Listeners.CustomListeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Flight Search Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCases.FlightSearchTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Flight Search Test --&gt;
+  &lt;test name=&quot;Signin Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCases.SignInTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Signin Test --&gt;
+  &lt;test name=&quot;Create Account Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCases.CreateAccountTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Create Account Test --&gt;
+&lt;/suite&gt; &lt;!-- Expedia Test --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Expedia_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Expedia Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Flight Search Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Signin Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Create Account Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Expedia_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Expedia Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Expedia_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Expedia Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Expedia_Test');
+function tableData_Expedia_Test() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'flightSearchTest')
+data.setCell(0, 2, 'TestCases.FlightSearchTest')
+data.setCell(0, 3, 271433);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'createAccountTest')
+data.setCell(1, 2, 'TestCases.CreateAccountTest')
+data.setCell(1, 3, 4702);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'createAccountTest')
+data.setCell(2, 2, 'TestCases.CreateAccountTest')
+data.setCell(2, 3, 3579);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'signInTest')
+data.setCell(3, 2, 'TestCases.SignInTest')
+data.setCell(3, 3, 1);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'createAccountTest')
+data.setCell(4, 2, 'TestCases.CreateAccountTest')
+data.setCell(4, 3, 1);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'signInTest')
+data.setCell(5, 2, 'TestCases.SignInTest')
+data.setCell(5, 3, 0);
+window.suiteTableData['Expedia_Test']= { tableData: data, tableDiv: 'times-div-Expedia_Test'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-Expedia_Test">
+              </div> <!-- times-div-Expedia_Test -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Expedia_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Expedia Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">flightSearchTest({fromsource=Kolkata, India (CCU-Netaji Subhash Chandra Bose Intl.), todate=9/18/19, todestination=De...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Test Verification Failes with Exception : expected [7] but found [5]</span>
+                <span class="reporter-method-output"><a target="_blank" href ="C:\Users\ArnabKundu\eclipse-workspace\POMwithPageFactories\src\test\resources\VerifyTestScreenShotsSun_Aug_18_10_13_12_IST_2019.jpg">ScreenShot</a> </span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a target = "_blank" href="C:\Users\ArnabKundu\eclipse-workspace\POMwithPageFactories\src\test\resources\VerifyTestScreenShotsSun_Aug_18_10_13_12_IST_2019.jpg"><img src ="C:\Users\ArnabKundu\eclipse-workspace\POMwithPageFactories\src\test\resources\VerifyTestScreenShotsSun_Aug_18_10_13_12_IST_2019.jpg" height=150 width=120></img></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Expedia_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Expedia_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.FlightSearchTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">flightSearchTest({fromsource=Kolkata, India (CCU-Netaji Subhash Chandra Bose Intl.), todate=9/18/19, todestination=De...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">271471 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.SignInTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">signInTest({password=abcdef, runmode=Y, username=abcd@gmail.com})</span>
+                <span class="method-start">272559 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">signInTest({password=dsaugidsa, runmode=N, username=xyz@gmail.com})</span>
+                <span class="method-start">273263 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">273263 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">273469 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.CreateAccountTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createAccountTest({lname=Kundu, password=abcd, email=abcd@gmail.com, runmode=Y, fname=Arnab})</span>
+                <span class="method-start">273534 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">283211 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">createAccountTest({lname=Kundu, password=dsg, email=saig@gmail.com, runmode=N, fname=Maya})</span>
+                <span class="method-start">283968 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">284233 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createAccountTest({lname=Kundu, password=dsds, email=adsd@gmail.com, runmode=Y, fname=Prashant })</span>
+                <span class="method-start">284237 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">288949 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Signin Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="2"
+           time="0.001">
+  <properties />
+  
+            <testcase name="signInTest" time="0.0" classname="TestCases.SignInTest">
+          <skipped />
+    </testcase>
+            <testcase name="signInTest" time="0.0" classname="TestCases.SignInTest">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>
